@@ -1,8 +1,4 @@
-const {
-  POKEMON_LIST_LOADING,
-  POKEMON_LIST_FAIL,
-  POKEMON_LIST_SUCCESS,
-} = require('../types');
+import { POKEMON_LIST_LOADING, POKEMON_LIST_FAIL, POKEMON_LIST_SUCCESS } from "../types";
 
 const initialState = {
   loading: false,
